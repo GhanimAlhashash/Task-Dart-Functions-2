@@ -1,14 +1,16 @@
 
 void main(){
-  print(greet("ghanim"));
+ greet("ghanim");
   print(isOdd(6));
-  print(squareOrDouble(3));
+  print(squareOrDouble(9));
   print(oddsSmallerThan(7));
 }
 
 
-String greet(String name) {
-  return "hello $name";
+void greet(String name) {
+
+  print ("hello $name");
+
 }
 
 
